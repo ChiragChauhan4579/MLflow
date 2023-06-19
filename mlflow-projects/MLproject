@@ -1,0 +1,9 @@
+name: iris_example
+
+conda_env: conda.yaml
+
+entry_points:
+    main:
+        command: "python svm.py & python xgb.py"
+
+# mlflow run .

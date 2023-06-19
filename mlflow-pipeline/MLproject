@@ -1,0 +1,16 @@
+name: pipeline_example
+
+conda_env: conda.yaml
+
+entry_points:
+
+    load_data:
+        command: "python data.py"
+
+    train_model:
+        command: "python train.py"
+        
+    main:
+        command: "python main.py"
+
+# mlflow run .

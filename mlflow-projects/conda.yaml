@@ -1,0 +1,14 @@
+name: pipeline_example
+
+channels:
+  - defaults
+
+dependencies:
+  - python
+  - pip
+  - pip:
+    - mlflow
+    - hyperopt
+    - scikit-learn
+    - pandas
+    - numpy

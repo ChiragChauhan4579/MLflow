@@ -1,0 +1,12 @@
+name: iris_example
+
+channels:
+  - defaults
+
+dependencies:
+  - python
+  - pip
+  - pip:
+    - mlflow
+    - scikit-learn
+    - xgboost
